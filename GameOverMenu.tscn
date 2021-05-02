@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Play Again.gd" type="Script" id=1]
+[ext_resource path="res://Quit.gd" type="Script" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Play Again" type="Button" parent="."]
+margin_left = 72.5546
+margin_top = 54.827
+margin_right = 149.555
+margin_bottom = 74.827
+text = "Play Again"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Game Over" type="RichTextLabel" parent="."]
+margin_left = 73.0775
+margin_top = 8.22725
+margin_right = 150.077
+margin_bottom = 48.2272
+text = "Game Over"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 73.0
+margin_top = 101.0
+margin_right = 149.0
+margin_bottom = 121.0
+text = "Quit"
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
