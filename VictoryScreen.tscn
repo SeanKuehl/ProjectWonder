@@ -1,0 +1,26 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Quit.gd" type="Script" id=1]
+
+[node name="VictoryScreen" type="Node2D"]
+
+[node name="Quit" type="Button" parent="."]
+margin_left = 45.664
+margin_top = 70.6663
+margin_right = 103.664
+margin_bottom = 90.6663
+text = "Hurray!"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 45.0
+margin_top = 10.6787
+margin_right = 111.0
+margin_bottom = 50.6787
+text = "You won!"
+__meta__ = {
+"_edit_use_anchors_": false
+}
